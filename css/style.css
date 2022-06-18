@@ -28,9 +28,24 @@ body{
 }
 
 #hero-invoice{
+    color: #000428;
     min-height: 100vh;
-    background: #283c86;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;
 
+}
+
+#hero-invoice .address{
+    font-size: .8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    #hero-invoice .address{
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    #hero-invoice .address{
+        font-size: 1rem;
+    }
 }
