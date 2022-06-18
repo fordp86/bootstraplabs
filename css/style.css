@@ -49,3 +49,9 @@ body{
         font-size: 1rem;
     }
 }
+
+#carousel{
+    color: #000428;
+    min-height: 100vh;
+    background: #fff;
+}
